@@ -543,128 +543,6 @@ i.right {
         color: #333;
     }
 
-/* Form Style   ||--------------------------------*/
-form {
-    position: relative;
-}
-
-button {
-    outline: none;
-}
-
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
-    cursor: pointer;
-    display: inline-block;
-}
-
-button, input, textarea, select {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-}
-
-    input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
-        appearance: none;
-        -webkit-appearance: none;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        background: #fff;
-        -webkit-border-radius: 0px !important;
-        -moz-border-radius: 0px !important;
-        border-radius: 0px !important;
-        color: #333;
-        outline: none;
-        font-weight: 400;
-        letter-spacing: 1px;
-        font-size: 13px;
-        padding-left: 15px;
-        padding-right: 15px;
-        transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
-        -moz-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
-        -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
-        -o-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
-        display: inline-block;
-        /*text-transform: uppercase;*/
-        line-height: 1.2;
-    }
-
-        input[type="text"]:hover, input[type="email"]:hover, input[type="tel"]:hover, input[type="number"]:hover, input[type="radio"]:hover, input[type="checkbox"]:hover, input[type="password"]:hover, textarea:hover, select:hover {
-            border: 1px solid rgba(0, 0, 0, 0.2);
-        }
-
-        input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus, input[type="password"]:focus, textarea:focus {
-            border: 1px solid rgba(0, 0, 0, 0.7);
-            color: #333;
-        }
-
-    input.input-lg, .input-lg {
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-
-    input.input-md, .input-md {
-        padding-top: 12px;
-        padding-bottom: 12px;
-    }
-
-    input.input-sm, .input-sm {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    input.input-xs, .input-xs {
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-
-
-
-textarea {
-    height: 120px;
-    font-size: 13px !important;
-}
-
-label {
-    color: #333;
-    font-size: 12px;
-    margin-bottom: 10px;
-    padding-right: 3px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 6px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.form-full {
-    width: 100%;
-}
-
-.form-full-height {
-    height: 100%;
-}
-
-.form-field-wrapper {
-    margin-bottom: 20px;
-    position: relative;
-}
-
-form .error {
-    border-color: #e1534f;
-}
-
-form label.error {
-    margin-bottom: 0px;
-    margin-top: 3px;
-    color: #e1534f;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.successContent, .errorContent {
-    margin-bottom: 20px;
-    display: none;
-    text-transform: none;
-    letter-spacing: 1px;
-}
 
 /* Spacer Style   ||------------------------*/
 /*spacing*/
@@ -1754,12 +1632,13 @@ form label.error {
 .header-fixed .logo a {
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 160px;
+    width: 100px;
     transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
 }
+
 
 .header-fixed .nav-menu ul.nav-menu-inner li a {
     padding: 26px 12px;
@@ -1800,7 +1679,7 @@ form label.error {
     }
 
         .logo a img {
-            width: 100%;
+            width: 60%;
             transition: all 0.3s ease 0s;
             -o-transition: all 0.3s ease 0s;
             -moz-transition: all 0.3s ease 0s;
