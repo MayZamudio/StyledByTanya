@@ -2068,6 +2068,11 @@ form label.error {
     width: 100%;
     /*background-attachment: fixed;*/
 }
+.arrow {
+    width: 30px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+  }
 
 .bg-fixed {
     background-attachment: fixed;
